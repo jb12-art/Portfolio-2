@@ -1,0 +1,49 @@
+/* src/styles.css */
+/* Global style */
+
+@import './footer.css';
+@import './header.css';
+
+body {
+  margin: 0 auto;
+  min-height: 100vh;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.intro {
+  text-align: center;
+  margin: auto;
+  max-width: 800px;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.projects {
+  margin: auto;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.project-card {
+  margin: auto;
+  margin-bottom: 100px;
+  border: 6px solid black;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.img-div {
+  max-width: 1000px;
+  max-height: 1000px;
+  background: black;
+}
+
+.img-size {
+  width: 100%;
+}
+
+.text-div {
+  padding: 20px;
+}
