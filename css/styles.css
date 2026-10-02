@@ -11,16 +11,18 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
-.intro {
+.intro,
+.project-header {
   text-align: center;
   margin: auto;
   max-width: 800px;
   width: 100%;
   margin-top: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
-.projects {
+.projects,
+.project-page {
   margin: auto;
   max-width: 1000px;
   width: 100%;
@@ -36,7 +38,7 @@ body {
 
 .img-div {
   max-width: 1000px;
-  max-height: 1000px;
+  max-height: 800px;
   background: black;
 }
 
@@ -46,4 +48,21 @@ body {
 
 .text-div {
   padding: 20px;
+  background-color: honeydew;
+}
+
+.links {
+  font-size: large;
+}
+
+/* all project pages */
+
+.project-page {
+  margin: auto;
+}
+
+.card-div {
+  border: 6px solid black;
+  border-radius: 6px;
+  margin-bottom: 100px;
 }
