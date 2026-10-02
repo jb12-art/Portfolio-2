@@ -6,16 +6,75 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="icon" type="image" href="#" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <script type="module" src="./js/main.js"></script>
 
-    <title>Portfolio 2</title>
+    <link rel="icon" type="image" href="#" />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>JavaScript Framework | Portfolio 2</title>
   </head>
+
   <body>
+    <header id="siteHeader"></header>
+
     <main id="mainContent">
-      <p>javascript framework</p>
+      <article class="project-page">
+        <div id="shareBackBtn"></div>
+
+        <header class="project-header">
+          <h1>JavaScript Framework</h1>
+
+          <p>A online shop website where users can view all items for sale.</p>
+
+          <div id="shareContainer"></div>
+        </header>
+
+        <div class="card-div">
+          <figure class="img-div">
+            <img
+              class="img-size"
+              src="images/JS-framework.jpg"
+              alt="screenshot of JavaScript Framework website"
+            />
+
+            <figcaption>Screenshot of JavaScript Framework website.</figcaption>
+          </figure>
+
+          <div class="text-div">
+            <h2>About the project</h2>
+
+            <p>
+              In this project I learned to use React, Typescript and Vite. A
+              Online shop website where you can browse items, search for an
+              item, add items to cart, view cart items while you shop, go to
+              your shopping cart and add more of the same item or delete them. A
+              contact us page with a contact form.
+            </p>
+
+            <h2>Links</h2>
+            <a
+              class="links"
+              href="https://jsfw-2025-v1-jorgen-jsfw.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Live website</a
+            >
+
+            |
+
+            <a
+              class="links"
+              href="https://github.com/NoroffFEU/jsfw-2025-v1-jorgen-jsfw/blob/main/README.md"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub README
+            </a>
+          </div>
+        </div>
+      </article>
     </main>
 
-    <script type="module" src="./js/main.js"></script>
+    <footer id="siteFooter"></footer>
   </body>
 </html>

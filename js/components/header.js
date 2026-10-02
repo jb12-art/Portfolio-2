@@ -1,5 +1,7 @@
 // js/components/header.js
 
+'use strict';
+
 export function renderHeader() {
   const header = document.createElement('div');
 

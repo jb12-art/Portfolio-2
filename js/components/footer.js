@@ -1,5 +1,7 @@
 // js/components/footer.js
 
+'use strict';
+
 export function renderFooter() {
   const footer = document.createElement('div');
 
