@@ -11,6 +11,12 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 .back-btn {
   padding: 5px 10px;
   border: 1px solid black;
@@ -34,6 +40,7 @@ body {
   width: 100%;
   margin-top: 50px;
   margin-bottom: 80px;
+  padding: 0 15px;
 }
 
 .share-container {
@@ -60,6 +67,7 @@ body {
   margin: auto;
   max-width: 1000px;
   width: 100%;
+  padding: 0 15px;
 }
 
 .project-card {
@@ -68,6 +76,7 @@ body {
   border: 6px solid black;
   border-radius: 10px;
   width: 100%;
+  overflow: hidden;
 }
 
 figcaption {
@@ -81,13 +90,15 @@ figcaption {
   margin: 0;
   max-width: 1000px;
   max-height: 800px;
+  width: 100%;
 }
 
 .img-size {
   display: block;
   width: 100%;
-  height: 100%;
+  height: auto;
   max-height: 600px;
+  object-fit: cover;
 }
 
 .text-div {
@@ -110,4 +121,24 @@ figcaption {
   border: 6px solid black;
   border-radius: 6px;
   margin-bottom: 100px;
+}
+
+/* mobile view */
+@media (max-width: 768px) {
+  .intro,
+  .project-header {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  .project-card,
+  .card-div {
+    margin-bottom: 40px;
+    border-width: 4px;
+  }
+
+  .text-div {
+    padding: 15px;
+    border-top-width: 2px;
+  }
 }

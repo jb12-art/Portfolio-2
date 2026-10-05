@@ -6,3 +6,12 @@
   color: white;
   text-align: center;
 }
+
+/* mobile */
+@media (max-width: 768px) {
+  .footer {
+    padding: 1.5rem 1rem;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+}
